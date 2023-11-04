@@ -1,5 +1,8 @@
 import { lazy } from "react";
 import { ADMINROLE, AGENTROLE } from "../helper/constructors";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 // Home Dashbord
 const Home = lazy(() => import("../page/home/Home"));
