@@ -1,0 +1,12 @@
+.batch-req-table {
+  cursor: pointer;
+}
+.batch-req-table .close-batch-req {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.batch-req-table:hover .close-batch-req {
+  opacity: 1;
+  visibility: visible;
+}
