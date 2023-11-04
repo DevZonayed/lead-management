@@ -1,0 +1,14 @@
+.mm-collapse {
+  max-height: 0px;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+.mm-collapse.mm-open {
+  max-height: 500px;
+  transition: 0.4s;
+}
+
+.arrowDown::after {
+  transform: rotate(225deg) translateY(-50%) !important;
+}

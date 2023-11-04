@@ -1,0 +1,9 @@
+.switch_button {
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
+}
+
+.table-responsive {
+  min-height: 380px;
+}

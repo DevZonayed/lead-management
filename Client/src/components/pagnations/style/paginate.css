@@ -1,0 +1,86 @@
+/* .pagination .item must be first */
+.pagination .item {
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+.pagination .item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.pagination .disabled-page {
+  color: #808e9b;
+}
+
+.pagination .active {
+  border: solid 3px #ff8206;
+  border-radius: 40px;
+  color: #ff8206;
+}
+
+.pagination .break-me {
+}
+
+.pagination .next a {
+  color: white;
+  font-weight: 900;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .next {
+  border-left: solid 2px #ff8206;
+  font-size: 15px;
+  position: absolute;
+  right: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.pagination .pagination {
+  align-items: center;
+  /* background-color: #ff8206; */
+  background-color: #0088ed;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+  width: 50%;
+  user-select: none;
+}
+
+.pagination .pagination-page {
+  font-weight: 700;
+}
+
+.pagination .previous a {
+  color: white;
+  font-weight: 900;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .previous {
+  border-right: solid 2px #ff8206;
+  font-size: 15px;
+  left: 0;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}

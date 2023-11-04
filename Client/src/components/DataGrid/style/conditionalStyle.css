@@ -1,0 +1,43 @@
+.expaired_lead {
+  background-color: #eb5454;
+}
+.todays_lead {
+  background-color: #8be78b;
+}
+
+.expaired_followup {
+  background-color: #901414;
+  color: white;
+}
+.admitted_lead {
+  background-color: green;
+  color: black;
+}
+
+/* Lead top action bar */
+.topActionBar {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(128, 187, 187);
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+}
+.toggleExpand {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(128, 187, 187);
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.toggleExpand:hover {
+  width: 30%;
+  height: 100%;
+  color: white;
+  background-color: rgb(83, 122, 122);
+}
