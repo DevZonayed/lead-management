@@ -10,9 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "@slack/events-api": "^3.0.1",
-    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "@woocommerce/woocommerce-rest-api": "^1.0.2",
     "aws-sdk": "^2.1310.0",
-    "axios": "^1.2.3",
+    "axios": "^1.20.0",
     "bcrypt": "^5.1.0",
     "circular-json": "^0.5.9",
     "colors": "^1.4.0",
